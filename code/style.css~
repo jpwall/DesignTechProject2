@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css?family=Catamaran:400,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+body {
+    font-family: 'Catamaran', sans-serif;
+    //background-color: #010b40;
+}
+
+#menuContainer {
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row wrap;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    width: 70%;
+    min-height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+#menuItem {
+    background-color: #272727;
+    width: 33.33%;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    line-height: 55px;
+    font-size: 30px;
+}
+
+#mainPageTitle {
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+#contentContainer {
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    //background-color: blue;
+}
+
+#contentBox {
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    width: 85%;
+    min-height: 50px;
+    background-color: #b8b8b8;
+    padding: 25px;
+    border-radius: 4px;
+}
+
+.skyscraperSeries {
+    margin-top: 5px;
+}
+
+#textInfoMain {
+    width: 50%;
+    height: 100%;
+    //background-color: purple;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#titleText {
+    font-size: 35px;
+}
+
+.beautifulHousesSeries {
+    text-align: right;
+}
+
+#imagePlaceholder {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.mainPageImg {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#skyScraperImg {
+    width: 500px;
+    //margin-top: 0px;
+}
+
+#houseImg {
+    width: 400px;
+}
+
+#galleryImg {
+    width: 400px;
+}
+
+#paragraphText {
+    font-size: 17.5px;
+}
