@@ -46,8 +46,8 @@ body {
     display: -webkit-flex;
     display: flex;
     flex-flow: row;
-    -webkit-justify-content: space-around;
-    justify-content: space-around;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 15px;
