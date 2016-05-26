@@ -39,7 +39,6 @@ body {
 #menuItem:hover {
     background: rgb(99, 99, 99);
     background: rgba(99, 99, 99, 0.95);
-    //color: #424141;
     transition: background 0.3s linear;
 }
 
@@ -69,12 +68,10 @@ body {
     margin-bottom: 15px;
     width: 85%;
     height: auto;
-    //background-color: #b8b8b8;
-    background: rgb(184, 184, 184);
-    background: rgba(184, 184, 184, 0.9);
+    background: rgb(205, 205, 205);
+    background: rgba(205, 205, 205, 0.9);
     padding: 25px;
     border-radius: 4px;
-    //opacity: 0.9;
 }
 
 .skyscraperSeries {
