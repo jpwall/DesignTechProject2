@@ -22,7 +22,7 @@ body {
     margin-bottom: 20px;
 }
 
-#menuItem {
+.menuItem {
     background-color: #424141;
     width: 33.33%;
     color: white;
@@ -30,13 +30,14 @@ body {
     text-align: center;
     line-height: 55px;
     font-size: 30px;
+    text-decoration: none;
 }
 
-.selection {
+#selection {
     text-decoration: underline;
 }
 
-#menuItem:hover {
+.menuItem:hover {
     background: rgb(99, 99, 99);
     background: rgba(99, 99, 99, 0.95);
     transition: background 0.3s linear;
