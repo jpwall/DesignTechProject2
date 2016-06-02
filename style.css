@@ -50,11 +50,45 @@ body {
     height: auto;
 }
 
-#contentContainer {
-    width: 70%;
+.contentContainer {
+    width: 65%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
+}
+
+#galleryBox {
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.galleryImg {
+    height: 350px;
+}
+
+.galleryImg img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#imageBoxInfo {
+    width: 467px;
+    height: 350px;
+    background-color: rgb(205, 205, 205);
+    color: black;
+    opacity: 0.0;
+    box-sizing: border-box;
+    padding: 20px;
+    position: absolute;
+    top: 149px;
+}
+
+#imageBoxInfo:hover {
+    opacity: 0.6;
+    transition: opacity 0.3s linear;
 }
 
 #contentBox {
@@ -93,7 +127,8 @@ body {
 }
 
 #imagePlaceholder {
-    width: 40%;
+    //margin-left: 5px;
+    width: 400px;
     height: 200px;
     background-color: black;
 }
