@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Catamaran:400,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway);
+
 body {
     font-family: 'Catamaran', sans-serif;
     background: url(images/cornerDrawing.jpg) no-repeat center center fixed;
@@ -12,7 +13,7 @@ body {
 #menuContainer {
     display: -webkit-flex;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row;
     -webkit-justify-content: space-around;
     justify-content: space-around;
     width: 70%;
